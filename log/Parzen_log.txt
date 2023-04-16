@@ -1,0 +1,32 @@
+2023-04-16 17:09:23,001 - Parzen - INFO - starting...
+2023-04-16 17:09:29,656 - Parzen - INFO - Average accuracy when h = 0.2 is 0.96
+2023-04-16 17:09:30,113 - Parzen - INFO - Average accuracy when h = 0.3 is 0.96
+2023-04-16 17:09:30,542 - Parzen - INFO - Average accuracy when h = 0.4 is 0.97
+2023-04-16 17:09:30,982 - Parzen - INFO - Average accuracy when h = 0.5 is 0.96
+2023-04-16 17:09:31,418 - Parzen - INFO - Average accuracy when h = 0.6 is 0.95
+2023-04-16 17:09:31,843 - Parzen - INFO - Average accuracy when h = 0.7 is 0.95
+2023-04-16 17:09:32,271 - Parzen - INFO - Average accuracy when h = 0.8 is 0.95
+2023-04-16 17:09:32,697 - Parzen - INFO - Average accuracy when h = 0.9 is 0.94
+2023-04-16 17:09:33,117 - Parzen - INFO - Average accuracy when h = 1.0 is 0.94
+2023-04-16 17:09:33,544 - Parzen - INFO - Average accuracy when h = 1.1 is 0.93
+2023-04-16 17:09:33,969 - Parzen - INFO - Average accuracy when h = 1.2 is 0.93
+2023-04-16 17:09:34,401 - Parzen - INFO - Average accuracy when h = 1.3 is 0.93
+2023-04-16 17:09:34,836 - Parzen - INFO - Average accuracy when h = 1.4 is 0.93
+2023-04-16 17:09:35,264 - Parzen - INFO - Average accuracy when h = 1.5 is 0.93
+2023-04-16 17:09:35,727 - Parzen - INFO - Average accuracy when h = 1.6 is 0.93
+2023-04-16 17:09:36,148 - Parzen - INFO - Average accuracy when h = 1.7 is 0.92
+2023-04-16 17:09:36,581 - Parzen - INFO - Average accuracy when h = 1.8 is 0.91
+2023-04-16 17:09:37,025 - Parzen - INFO - Average accuracy when h = 1.9 is 0.91
+2023-04-16 17:09:37,469 - Parzen - INFO - Average accuracy when h = 2.0 is 0.91
+2023-04-16 17:09:37,898 - Parzen - INFO - Average accuracy when h = 2.1 is 0.91
+2023-04-16 17:09:38,335 - Parzen - INFO - Average accuracy when h = 2.2 is 0.91
+2023-04-16 17:09:38,774 - Parzen - INFO - Average accuracy when h = 2.3 is 0.91
+2023-04-16 17:09:39,202 - Parzen - INFO - Average accuracy when h = 2.4 is 0.91
+2023-04-16 17:09:39,644 - Parzen - INFO - Average accuracy when h = 2.5 is 0.90
+2023-04-16 17:09:40,076 - Parzen - INFO - Average accuracy when h = 2.6 is 0.91
+2023-04-16 17:09:40,519 - Parzen - INFO - Average accuracy when h = 2.7 is 0.91
+2023-04-16 17:09:40,951 - Parzen - INFO - Average accuracy when h = 2.8 is 0.91
+2023-04-16 17:09:41,389 - Parzen - INFO - Average accuracy when h = 2.9 is 0.90
+2023-04-16 17:09:41,389 - Parzen - INFO - Running time of Parzen Window with 5-fold cross validation for each h: 0.435
+2023-04-16 17:09:42,440 - Parzen - INFO - Optimal Kernel Size: 1.4
+2023-04-16 17:09:42,440 - Parzen - INFO - The max average accuracy when h = 1.4 is 0.93
