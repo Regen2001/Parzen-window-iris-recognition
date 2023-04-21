@@ -152,7 +152,7 @@ if __name__ == '__main__':
 
     start = timeit.default_timer() # Start timer to count the running time of Parzen Window Method
     # for h in range(1, 4): # 'for loop' condition to compare the program time of Pazen Window and MQDF
-    for h in np.arange(0.2, 3, 0.1): # Find the optimal kernel via Changing the h value
+    for h in np.arange(0.1, 1, 0.2): # Find the optimal kernel via Changing the h value
         opt_size = 0  # To find the optimal kernel size
         sum_avg_acc = 0 # To calculate the average accuracy of 5-fold cross validation
         for index in range(len(five_data)): # 5-fold Cross-Validation
@@ -187,7 +187,7 @@ if __name__ == '__main__':
                         con_prob = parzen_window(x, x_i, h, d) # Compute the kernel function of PZ
                         p_x += con_prob # Add the output of the kernel function for every train data lists
                     p_xw = p_x / len(name) # Compute the conditional probability of a test data
-                    opt_size += log10(p_xw) # Maximum log-likelihood estimation to find the optimal kernel size
+                    opt_size += np.log10(p_xw) # Maximum log-likelihood estimation to find the optimal kernel size
 
                     # Add the probability into its category
                     if cn == 0:
@@ -231,7 +231,7 @@ if __name__ == '__main__':
     # plt.xlabel("h")
     # plt.ylabel("Average accuracy")
 
-    draw(x, y, 'h', 'Average accuracy / %', 'par_accuracy')
+    # draw(x, y, 'h', 'Average accuracy / %', 'par_accuracy')
 
     # plot2 = plt.figure(2)
     # plt.plot(x, y2, label="L(h)")
@@ -244,7 +244,7 @@ if __name__ == '__main__':
     xmax = float(x[xpos])
     opt_avg_acc = float(y[xpos])
 
-    draw(x, y2, 'h', 'L(h)', 'L_H', [xmax, ymax])
+    # draw(x, y2, 'h', 'L(h)', 'L_H', [xmax, ymax])
 
     # plt.annotate('Optimal Kernel Size, (%.1f, %.1f)' %(xmax, ymax),
     #              xy=(xmax, ymax),
